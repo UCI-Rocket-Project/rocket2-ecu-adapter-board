@@ -5,23 +5,27 @@
 	(uuid "70ea2f3b-4ec7-472a-aa73-52125b5247b9")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Mechanical:MountingHole"
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
-				(at 0 5.08 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -46,7 +50,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Mounting Hole without connection"
+			(property "Description" "Mounting Hole with connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -64,7 +68,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MountingHole*"
+			(property "ki_fp_filters" "MountingHole*Pad*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -73,9 +77,9 @@
 					(hide yes)
 				)
 			)
-			(symbol "MountingHole_0_1"
+			(symbol "MountingHole_Pad_0_1"
 				(circle
-					(center 0 0)
+					(center 0 1.27)
 					(radius 1.27)
 					(stroke
 						(width 1.27)
@@ -83,6 +87,127 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 			)
@@ -103,7 +228,7 @@
 	)
 	(rectangle
 		(start 12.192 12.446)
-		(end 64.262 37.084)
+		(end 64.262 44.958)
 		(stroke
 			(width 0.762)
 			(type solid)
@@ -111,17 +236,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 8b801b21-131a-49c9-b24b-54840735118d)
-	)
-	(text "Mounting Holes\n"
-		(exclude_from_sim no)
-		(at 20.574 35.306 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "aded123f-43d2-4dd0-8320-daa0e7d49c61")
+		(uuid 4c28e2f9-4e45-4145-a7e4-a109012dfc9d)
 	)
 	(text "D-SUB to GX Connection\n"
 		(exclude_from_sim no)
@@ -133,16 +248,26 @@
 		)
 		(uuid "c6efaec0-4cd9-42c1-8004-e1cf9bf46ff3")
 	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 20.066 43.688 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eabaa521-be22-4092-87ce-5de73ddd8fb4")
+	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 43.18 16.51 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 43.18 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "044654d2-b56a-4ccc-b1a0-45fea774cb34")
+		(uuid "09300621-5aba-4761-bbfb-fc643ac0a147")
 		(property "Reference" "H2"
 			(at 45.72 15.2399 0)
 			(effects
@@ -152,7 +277,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
+		(property "Value" "MountingHole_Pad"
 			(at 45.72 17.7799 0)
 			(effects
 				(font
@@ -162,7 +287,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 43.18 16.51 0)
+			(at 43.18 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,7 +296,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 16.51 0)
+			(at 43.18 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -179,14 +304,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 43.18 16.51 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 43.18 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "dfafc380-a37b-4f99-8c3c-1204980a0896")
 		)
 		(instances
 			(project "ECU Adapter Board"
@@ -198,17 +326,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 19.05 16.51 0)
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 44.45 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3f810dc4-9a75-4073-80bd-a4be573d1499")
-		(property "Reference" "H5"
-			(at 21.59 15.2399 0)
+		(uuid "14a1cd27-500d-47b7-a7f8-7ef3bef948f1")
+		(property "Reference" "H3"
+			(at 46.99 29.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,8 +344,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 21.59 17.7799 0)
+		(property "Value" "MountingHole_Pad"
+			(at 46.99 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,7 +354,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 19.05 16.51 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -235,7 +363,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 16.51 0)
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,44 +371,236 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 19.05 16.51 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 44.45 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "3ba9e05f-e3db-45ca-b293-fb2aabc59c0c")
 		)
 		(instances
 			(project "ECU Adapter Board"
 				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
-					(reference "H5")
+					(reference "H3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 19.05 27.94 0)
+		(lib_id "power:GND")
+		(at 19.05 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e3dc27a-e405-4abd-995b-ff00b7ea14bd")
+		(property "Reference" "#PWR026"
+			(at 19.05 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef9ba427-9d55-4741-9b54-c9779c549d39")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 44.45 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5137328e-2151-4133-9f1e-11f1e69b4bd1")
+		(property "Reference" "#PWR028"
+			(at 44.45 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.45 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 44.45 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4475ace9-679e-4b05-9212-45780d79053a")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 43.18 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5588caf2-409d-4912-8ed7-02bdd3a9562d")
+		(property "Reference" "#PWR027"
+			(at 43.18 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 43.18 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 43.18 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbbc9508-4380-40f1-adc4-1eaa4e1476c7")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 19.05 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "539d6dca-b300-4a6a-b1ee-c192c2ba989e")
+		(uuid "99a4484d-2d13-4332-bb43-d6a00f0839fa")
 		(property "Reference" "H1"
-			(at 21.59 26.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
 			(at 21.59 29.2099 0)
 			(effects
 				(font
@@ -289,8 +609,17 @@
 				(justify left)
 			)
 		)
+		(property "Value" "MountingHole_Pad"
+			(at 21.59 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 19.05 27.94 0)
+			(at 19.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -299,7 +628,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 19.05 27.94 0)
+			(at 19.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -307,14 +636,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 19.05 27.94 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 19.05 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "ac94368e-feff-4dd6-84ea-62b23065daab")
 		)
 		(instances
 			(project "ECU Adapter Board"
@@ -326,17 +658,83 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 43.18 27.94 0)
+		(lib_id "power:GND")
+		(at 19.05 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d62a572b-c9f9-43a9-8194-aee8a2be231e")
+		(property "Reference" "#PWR023"
+			(at 19.05 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 19.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5732236-a24e-408a-b7ea-51e24966b00e")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 19.05 17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e00e0203-c075-41dc-8597-8c985f76d8cb")
-		(property "Reference" "H3"
-			(at 45.72 26.6699 0)
+		(uuid "dd2c7fd2-78f5-4ad8-8d4e-e694722508c9")
+		(property "Reference" "H4"
+			(at 21.59 15.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -344,8 +742,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "MountingHole"
-			(at 45.72 29.2099 0)
+		(property "Value" "MountingHole_Pad"
+			(at 21.59 17.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -354,7 +752,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
-			(at 43.18 27.94 0)
+			(at 19.05 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -363,7 +761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 27.94 0)
+			(at 19.05 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -371,19 +769,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
-			(at 43.18 27.94 0)
+		(property "Description" "Mounting Hole with connection"
+			(at 19.05 17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "1"
+			(uuid "f7aa8220-ac2e-443b-bcbc-bc821d745a7f")
 		)
 		(instances
 			(project "ECU Adapter Board"
 				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
-					(reference "H3")
+					(reference "H4")
 					(unit 1)
 				)
 			)
