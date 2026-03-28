@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "3D models")(type "KiCad")(uri "/Users/maahividyarthi/Documents/Rocket Hardware/UCIRP-KiCAD-Lib/3D models")(options "")(descr ""))
+  (lib (name "UCIRP-KiCAD-Lib")(type "KiCad")(uri "/Users/maahividyarthi/Documents/Rocket Hardware/UCIRP-KiCAD-Lib/UCIRP-KiCAD-Lib.pretty")(options "")(descr ""))
+)

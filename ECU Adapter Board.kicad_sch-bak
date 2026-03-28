@@ -1,0 +1,1647 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "70ea2f3b-4ec7-472a-aa73-52125b5247b9")
+	(paper "A4")
+	(lib_symbols
+		(symbol "DE15_Socket_HighDensity_MountingHoles_1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J6"
+				(at 0 22.86 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+				(at 0 20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
+				(at -24.13 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at -24.13 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "DSUB VGA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DSUB*Socket*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "DE15_Socket_HighDensity_MountingHoles_1_0_1"
+				(polyline
+					(pts
+						(xy -3.175 7.62) (xy -0.635 7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 12.7) (xy -3.175 12.7)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -2.54) (xy -3.175 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -7.62) (xy -3.175 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 12.7)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -7.62)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 -10.16)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "DE15_Socket_HighDensity_MountingHoles_1_1_1"
+				(polyline
+					(pts
+						(xy -3.81 17.78) (xy -3.81 -15.24) (xy 3.81 -12.7) (xy 3.81 15.24) (xy -3.81 17.78)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -7.62 12.7 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 7.62 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -7.62 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -10.16 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 90)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -10.16 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 64.262 12.446)
+		(end 154.178 48.006)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26a3789b-92e6-4ff1-8478-669c3d7ffc40)
+	)
+	(rectangle
+		(start 12.192 12.446)
+		(end 64.262 37.084)
+		(stroke
+			(width 0.762)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b801b21-131a-49c9-b24b-54840735118d)
+	)
+	(text "Mounting Holes\n"
+		(exclude_from_sim no)
+		(at 20.574 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aded123f-43d2-4dd0-8320-daa0e7d49c61")
+	)
+	(text "D-SUB to GX Connection\n"
+		(exclude_from_sim no)
+		(at 77.47 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c6efaec0-4cd9-42c1-8004-e1cf9bf46ff3")
+	)
+	(no_connect
+		(at 16.51 31.75)
+		(uuid "0fac5fbf-77e6-4679-bf38-d6b52e420ba7")
+	)
+	(no_connect
+		(at 16.51 21.59)
+		(uuid "2c069427-c13c-43c1-9188-449685c31ce1")
+	)
+	(no_connect
+		(at 41.91 31.75)
+		(uuid "7aac3598-5e35-4f33-bcf6-fd95c9d47234")
+	)
+	(no_connect
+		(at 41.91 21.59)
+		(uuid "a78d9ec9-1bff-48c1-ab17-ca6f3895152b")
+	)
+	(symbol
+		(lib_name "DE15_Socket_HighDensity_MountingHoles_1")
+		(lib_id "Connector:DE15_Socket_HighDensity_MountingHoles")
+		(at 190.5 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "020a39c0-bcca-49e6-93c9-d72a528b39b3")
+		(property "Reference" "J4"
+			(at 190.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+			(at 190.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+			(at 190.5 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "69c97d91-718d-4ddc-b3ca-ba4c52b8375b")
+		)
+		(pin "1"
+			(uuid "e97c7040-be5e-4d7f-86c1-f2e27d2f782f")
+		)
+		(pin "2"
+			(uuid "a97e14a9-91c9-49ce-b0c1-b2fdb0892941")
+		)
+		(pin "8"
+			(uuid "55526206-f059-4da8-9220-f5e34f1d45c2")
+		)
+		(pin "3"
+			(uuid "52523976-2690-4a28-bb11-33f3e7066b65")
+		)
+		(pin "9"
+			(uuid "94647fa9-acfd-40c8-b014-0521eb3b250a")
+		)
+		(pin "7"
+			(uuid "6d13cfe6-e064-44df-b603-9bea695e1bda")
+		)
+		(pin "4"
+			(uuid "4fa25025-662f-4bd6-96fb-ff2ac81cd81a")
+		)
+		(pin "10"
+			(uuid "e2c53164-b15a-48df-80cf-070727b40219")
+		)
+		(pin "0"
+			(uuid "c6419010-f47f-4942-901d-6e492dba3076")
+		)
+		(pin "11"
+			(uuid "02c8533f-9f16-484d-aa09-86401476997d")
+		)
+		(pin "12"
+			(uuid "be0c49c8-6599-4d8a-b159-ee9738cda5cb")
+		)
+		(pin "13"
+			(uuid "d614bd8d-2034-454b-ba09-3a92b13aeecc")
+		)
+		(pin "14"
+			(uuid "7ca5b623-1edc-43cf-9c3d-a07f6f41a78f")
+		)
+		(pin "15"
+			(uuid "0259acce-dcea-453e-8f1f-1bd3d47ffe4b")
+		)
+		(pin "5"
+			(uuid "05b276e1-2004-4e19-a276-aee27fd394a9")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DE15_Socket_HighDensity_MountingHoles_1")
+		(lib_id "Connector:DE15_Socket_HighDensity_MountingHoles")
+		(at 190.5 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0424350c-24df-4ea7-954b-0b8ea858a0dc")
+		(property "Reference" "J9"
+			(at 190.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+			(at 190.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ff1af876-d6c4-404b-baa6-9aff6f57930a")
+		)
+		(pin "1"
+			(uuid "b6ea03fc-f59c-423a-aa2a-f9e5e56fe6c6")
+		)
+		(pin "2"
+			(uuid "63a263aa-8007-4988-9717-5e3d9e4e5be7")
+		)
+		(pin "8"
+			(uuid "18036bef-536e-4746-9c46-f07f17bee789")
+		)
+		(pin "3"
+			(uuid "320a20ed-eb82-45ef-b209-3269b8da89ff")
+		)
+		(pin "9"
+			(uuid "bef9f553-8e9a-425c-b72d-65646f286cac")
+		)
+		(pin "7"
+			(uuid "a3665bbc-8d68-4e95-86b9-5d6f80669bf9")
+		)
+		(pin "4"
+			(uuid "0fbb1fd2-a999-4752-8858-cfd3e6a54729")
+		)
+		(pin "10"
+			(uuid "156bd19e-b321-4bb6-9a69-ff6aa2fcf6e3")
+		)
+		(pin "0"
+			(uuid "12e45af7-f5be-4b97-859f-a357d026f97b")
+		)
+		(pin "11"
+			(uuid "019e72c2-189d-44be-877d-851c4b9f055f")
+		)
+		(pin "12"
+			(uuid "bc11bf16-afba-45c3-a8cb-0aa6a9aaed5f")
+		)
+		(pin "13"
+			(uuid "83c9e45b-cd43-49ac-ab84-146a36f2608a")
+		)
+		(pin "14"
+			(uuid "90b210ff-2e06-482a-abab-35eac3d95996")
+		)
+		(pin "15"
+			(uuid "ad4bca6b-b8fc-4ff5-a111-8db8e50d0dc1")
+		)
+		(pin "5"
+			(uuid "0ecb3aba-1a07-461e-a9c6-1820c0a644f7")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 16.51 29.21 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "081e3faf-0cd8-4f66-b6d7-088c8be652a6")
+		(property "Reference" "H1"
+			(at 19.05 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 19.05 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 16.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 16.51 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7aeeee88-95ce-4dfa-8fb7-c96f42286027")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 19.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b8d4b35-ec96-4826-95ba-76afa91463f8")
+		(property "Reference" "H3"
+			(at 44.45 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 44.45 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5aed8d53-6c5b-49ac-bc0e-c0f98dfd1a6d")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DE15_Socket_HighDensity_MountingHoles_1")
+		(lib_id "Connector:DE15_Socket_HighDensity_MountingHoles")
+		(at 236.22 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d1843a-2326-4e68-88d2-3f5af53870a2")
+		(property "Reference" "J10"
+			(at 236.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+			(at 236.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+			(at 236.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "fe04994c-2a75-4fa4-a05e-6f84a00ac8db")
+		)
+		(pin "1"
+			(uuid "f2351134-2bfe-4c99-a889-e48d574746e3")
+		)
+		(pin "2"
+			(uuid "051acf05-fd68-4299-a998-9d9c26add6d9")
+		)
+		(pin "8"
+			(uuid "ffa97eba-3611-4c93-be47-42d0fa879810")
+		)
+		(pin "3"
+			(uuid "129ce517-abb0-4822-8d68-407efde72fa6")
+		)
+		(pin "9"
+			(uuid "7ddf26ad-ebe7-409e-ad52-a29195ac27c7")
+		)
+		(pin "7"
+			(uuid "42dc50b6-f260-41c3-951d-7051fc60149d")
+		)
+		(pin "4"
+			(uuid "07fb90b6-a9cb-4328-afc5-623e1506a5db")
+		)
+		(pin "10"
+			(uuid "272605db-ce8b-4638-a0ec-ef380e8aef1b")
+		)
+		(pin "0"
+			(uuid "ee6ce5bf-d421-4e28-88ad-4de7ef55bd9e")
+		)
+		(pin "11"
+			(uuid "c525d8fd-6943-457e-a5dc-6604aada43af")
+		)
+		(pin "12"
+			(uuid "430f1c34-f9cb-4d76-ae88-f12ec20253be")
+		)
+		(pin "13"
+			(uuid "30131f0a-26f1-4c2a-a000-fe5ca540853d")
+		)
+		(pin "14"
+			(uuid "6f586127-aba2-4088-8f32-1dee6784e374")
+		)
+		(pin "15"
+			(uuid "a60ab190-e6fc-4859-bc68-ad960c368f52")
+		)
+		(pin "5"
+			(uuid "84b47863-d8ef-48b5-ae91-ad5b7bb86eae")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 16.51 19.05 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8702f98e-82c2-4b78-a17c-68682b0fb2bd")
+		(property "Reference" "H2"
+			(at 19.05 16.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 19.05 19.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 16.51 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffbaa46f-9857-4d35-b31d-f301cf9f3e45")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 41.91 29.21 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c557400f-c703-4344-92b4-2623b426f113")
+		(property "Reference" "H4"
+			(at 44.45 26.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 44.45 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
+			(at 41.91 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 41.91 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9db721cc-bd30-4552-b7bc-df560652e6e3")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DE15_Socket_HighDensity_MountingHoles_1")
+		(lib_id "Connector:DE15_Socket_HighDensity_MountingHoles")
+		(at 262.89 127 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee58d348-5dbc-4a05-8a51-e3fd7347f048")
+		(property "Reference" "J1"
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
+			(at 238.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+			(at 262.89 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "ac4f7087-c5bf-4e74-b905-f01f4f5bbd6b")
+		)
+		(pin "1"
+			(uuid "936cb613-6b25-4604-a9ac-9c20533a98b6")
+		)
+		(pin "2"
+			(uuid "fa1b67f6-164b-4722-a850-486e720e0755")
+		)
+		(pin "8"
+			(uuid "754450f6-693c-4779-be58-74d208b2598a")
+		)
+		(pin "3"
+			(uuid "3ff9913e-83a2-4387-8c0e-447de36f2c15")
+		)
+		(pin "9"
+			(uuid "5443b371-4c0b-413e-907d-78ae98954ce5")
+		)
+		(pin "7"
+			(uuid "ba5bfb7e-a6c3-4923-95ef-a2789740ec5f")
+		)
+		(pin "4"
+			(uuid "fb3680ad-baf7-4f0b-85ba-855bf350a49e")
+		)
+		(pin "10"
+			(uuid "5b64e855-9821-4f7b-84b3-f5b135b219de")
+		)
+		(pin "0"
+			(uuid "6a92a821-6517-4e80-b8e0-de83307aeb64")
+		)
+		(pin "11"
+			(uuid "c76ddeea-c460-4a3a-851e-c1bddd7d841f")
+		)
+		(pin "12"
+			(uuid "478ecd1c-8402-4d0e-9a26-fad9562c4abc")
+		)
+		(pin "13"
+			(uuid "596d1794-e2c9-406a-b14f-53cccb007b36")
+		)
+		(pin "14"
+			(uuid "03546704-44c8-44e2-8910-a82b26b576ca")
+		)
+		(pin "15"
+			(uuid "0a8474e4-4b33-4fa6-a921-7961dabad491")
+		)
+		(pin "5"
+			(uuid "876b7b02-d3ae-4217-9788-8793063a28dd")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "DE15_Socket_HighDensity_MountingHoles_1")
+		(lib_id "Connector:DE15_Socket_HighDensity_MountingHoles")
+		(at 236.22 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6d6021d-a305-43a8-a9a6-cafc9a1e587b")
+		(property "Reference" "J5"
+			(at 236.22 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DE15_Socket_HighDensity_MountingHoles"
+			(at 236.22 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Dsub:DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles"
+			(at 212.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 212.09 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "15-pin D-SUB connector, socket (female), High density (3 columns), Triple Row, Generic, VGA-connector, Mounting Hole"
+			(at 236.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "d2eca1d0-21af-4090-8f80-723142c1a515")
+		)
+		(pin "1"
+			(uuid "fda49eb3-580e-4c0f-a2ef-d77cbfda1405")
+		)
+		(pin "2"
+			(uuid "72bdb04d-2f1b-40b1-9186-2591779dac2e")
+		)
+		(pin "8"
+			(uuid "f4be7ce9-5790-4e94-83ff-ed429fed5eca")
+		)
+		(pin "3"
+			(uuid "420709bd-288f-4dba-bdbf-c3daccfadfe7")
+		)
+		(pin "9"
+			(uuid "00ff4d1c-5f3f-4a20-a4ae-7b6801c611dc")
+		)
+		(pin "7"
+			(uuid "1ed78159-d6b1-482d-b14c-6a40b44266a7")
+		)
+		(pin "4"
+			(uuid "b86edc5c-8c42-46d7-a455-2393950c1111")
+		)
+		(pin "10"
+			(uuid "1fc149cf-3414-48f7-91a7-ba2bf2f79ced")
+		)
+		(pin "0"
+			(uuid "4eb67539-0b96-4913-84f1-b5cb9caba1e5")
+		)
+		(pin "11"
+			(uuid "08de681d-a983-4048-85ba-cc760e3dca94")
+		)
+		(pin "12"
+			(uuid "b0f9a0f6-432e-4850-b518-9d5893e8e8b4")
+		)
+		(pin "13"
+			(uuid "845ff983-5590-4551-a761-8779b573a48a")
+		)
+		(pin "14"
+			(uuid "388a168c-c93a-4789-9cfc-710cb9bdec4c")
+		)
+		(pin "15"
+			(uuid "422370c6-27cf-40b9-b1a4-4f82c27dc607")
+		)
+		(pin "5"
+			(uuid "ee31c58b-5443-4c9f-adc2-32640ecf32a8")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 17.78)
+		(size 30.226 15.748)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73e189ef-eaf4-4496-9f01-6ff1bdbebc50")
+		(property "Sheetname" "PT Connectors"
+			(at 67.31 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PT_Connector.kicad_sch"
+			(at 67.31 34.1126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
