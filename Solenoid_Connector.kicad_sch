@@ -1404,26 +1404,6 @@
 		(color 0 0 0 0)
 		(uuid "fc267f41-291c-449c-bb7b-39e43d50bca8")
 	)
-	(no_connect
-		(at 77.47 67.31)
-		(uuid "8bad741a-6556-4164-84cd-9c48cfdf2807")
-	)
-	(no_connect
-		(at 166.37 135.89)
-		(uuid "a3d0047b-a2df-4009-8215-3b460cc1b4f8")
-	)
-	(no_connect
-		(at 167.64 66.04)
-		(uuid "a8791760-b35e-4a5e-b195-55c2af7fc587")
-	)
-	(no_connect
-		(at 254 67.31)
-		(uuid "ad24c941-1a48-4281-b8e2-6702233bf0ff")
-	)
-	(no_connect
-		(at 77.47 137.16)
-		(uuid "f1ce0806-0ca9-4451-b55b-197b27fd8c0c")
-	)
 	(wire
 		(pts
 			(xy 144.78 118.11) (xy 144.78 123.19)
@@ -3396,7 +3376,7 @@
 		(dnp no)
 		(uuid "193d14b2-6627-4d6c-ab62-a52d2d86c818")
 		(property "Reference" "J17"
-			(at 254 69.85 0)
+			(at 254 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,7 +3384,7 @@
 			)
 		)
 		(property "Value" "DSUB_15pin/VGA Veritical  Female"
-			(at 253.746 72.39 0)
+			(at 253.746 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,6 +3673,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "399c1af1-d5ba-4dd8-9240-8f853cdcf1e6")
+		(property "Reference" "#PWR034"
+			(at 167.64 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2feece68-9532-4f90-8371-988c23bad2e3")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9/b735109f-6a3f-4835-99bb-f1b69c474257"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UCIRP-KiCAD-Lib:Connector_VGA_vertical")
 		(at 77.47 29.21 0)
 		(unit 1)
@@ -3702,7 +3748,7 @@
 		(dnp no)
 		(uuid "3a5ed998-00c4-4e9f-8361-594930597efd")
 		(property "Reference" "J13"
-			(at 77.47 69.85 0)
+			(at 77.47 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3710,7 +3756,7 @@
 			)
 		)
 		(property "Value" "DSUB_15pin/VGA Veritical  Female"
-			(at 77.216 72.39 0)
+			(at 77.216 77.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4081,6 +4127,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 77.47 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4804474a-9d68-498d-b9f3-3a8819fa148c")
+		(property "Reference" "#PWR037"
+			(at 77.47 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b14b789c-f3fe-4bd4-9a7a-55e28ca00096")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9/b735109f-6a3f-4835-99bb-f1b69c474257"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 55.88 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4155,7 +4267,7 @@
 		(dnp no)
 		(uuid "716364a1-1e1b-4409-a1a4-421412aac822")
 		(property "Reference" "J15"
-			(at 167.64 68.58 0)
+			(at 167.64 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,7 +4275,7 @@
 			)
 		)
 		(property "Value" "DSUB_15pin/VGA Veritical  Female"
-			(at 167.386 71.12 0)
+			(at 167.386 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,6 +4367,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 77.47 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1057635-19f5-45bd-8d61-45d3ffb49d91")
+		(property "Reference" "#PWR033"
+			(at 77.47 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 77.47 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77d39940-4d14-4746-b085-36524c28150b")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9/b735109f-6a3f-4835-99bb-f1b69c474257"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 254 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b501af91-bab5-4da1-b5f5-90bee8a73c9b")
+		(property "Reference" "#PWR035"
+			(at 254 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd826821-cfc9-4ff7-ba25-fc4e31444d5c")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9/b735109f-6a3f-4835-99bb-f1b69c474257"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "UCIRP-KiCAD-Lib:Connector_VGA_vertical")
 		(at 77.47 99.06 0)
 		(unit 1)
@@ -4264,7 +4508,7 @@
 		(dnp no)
 		(uuid "c7ed64c2-b36a-4fff-96f3-692b5c1f4b76")
 		(property "Reference" "J19"
-			(at 77.47 139.7 0)
+			(at 77.47 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4516,7 @@
 			)
 		)
 		(property "Value" "DSUB_15pin/VGA Veritical  Female"
-			(at 77.216 142.24 0)
+			(at 77.216 147.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4435,6 +4679,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 166.37 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec04e525-54da-4ec6-bf8e-361eaea10365")
+		(property "Reference" "#PWR036"
+			(at 166.37 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04c8cee0-864e-42e7-8ef9-1d45091bf7f9")
+		)
+		(instances
+			(project "ECU Adapter Board"
+				(path "/70ea2f3b-4ec7-472a-aa73-52125b5247b9/b735109f-6a3f-4835-99bb-f1b69c474257"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 154.94 31.75 0)
 		(unit 1)
@@ -4580,7 +4890,7 @@
 		(dnp no)
 		(uuid "fa1db202-b9d9-4203-8cff-6a2954614d7f")
 		(property "Reference" "J21"
-			(at 166.37 138.43 0)
+			(at 166.37 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4588,7 +4898,7 @@
 			)
 		)
 		(property "Value" "DSUB_15pin/VGA Veritical  Female"
-			(at 166.116 140.97 0)
+			(at 166.116 146.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
