@@ -614,12 +614,48 @@
       "Root"
     ],
     [
-      "73e189ef-eaf4-4496-9f01-6ff1bdbebc50",
-      "PT Connectors"
+      "d5ef0a22-836c-4de6-97e9-6ad5279ba6e8",
+      "PT1"
     ],
     [
-      "b735109f-6a3f-4835-99bb-f1b69c474257",
-      "Solenoid Connector"
+      "cce352a4-3a8c-4df9-a738-55bf3cbf410d",
+      "PT2"
+    ],
+    [
+      "5c4dfd91-8331-4ea7-a8e4-16c0362c8641",
+      "PT3"
+    ],
+    [
+      "954c7b96-151f-459a-8d59-cade425d7e43",
+      "PT4"
+    ],
+    [
+      "a938d0ab-bba1-4e6e-ae56-d36f5820c8aa",
+      "PT5"
+    ],
+    [
+      "e477fb40-36e6-4775-9a26-e30e0d19dc79",
+      "PT6"
+    ],
+    [
+      "68dacb17-e512-429a-a892-9e022c900c21",
+      "Solenoid 1"
+    ],
+    [
+      "a4ebc165-33ea-439b-b30c-55608cab1fb0",
+      "Solenoid 2"
+    ],
+    [
+      "1aaeaa8f-d6d7-40d6-976a-23b3c76151bc",
+      "Solenoid 3"
+    ],
+    [
+      "c4ae6c17-941f-408b-88cf-fcdc06be73e9",
+      "Solenoid 4"
+    ],
+    [
+      "40084320-3261-412d-a6b9-a6ee08190fee",
+      "Solenoid 5"
     ]
   ],
   "text_variables": {}
