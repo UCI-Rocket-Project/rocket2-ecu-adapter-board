@@ -96,7 +96,7 @@
 		(uuid "1615a4b7-7aa7-4bdb-bdf3-688ec031b3ba")
 		(at 193.085 53.595)
 		(property "Reference" "PT 5"
-			(at 0 -0.5 0)
+			(at 0.085 2.595 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "40cc91a4-0891-471c-baf3-d7fe2f821d09")
@@ -720,13 +720,24 @@
 			(uuid "ff50b361-3830-4d16-bd82-ea6a0c335c19")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "UCIRP-KiCAD-Lib:Connector_VGA_Vertical"
 		(layer "F.Cu")
 		(uuid "1df84bcd-b8fd-4f33-a59c-a4241f71d1c3")
 		(at 231.905 29.515)
 		(property "Reference" "PT 3"
-			(at 0 0 0)
+			(at -0.055 2.535 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "2d4bc01b-b739-4f6d-af29-3f95f5f55598")
@@ -1350,13 +1361,24 @@
 			(uuid "21a90f4b-25cc-49c0-ba5c-cda43fc49d8d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "UCIRP-KiCAD-Lib:Connector_VGA_Vertical"
 		(layer "F.Cu")
 		(uuid "21bdddff-8a8a-4215-b3be-a9699cebb50d")
 		(at 217.305 101.02)
-		(property "Reference" "J22"
-			(at 0 -0.5 0)
+		(property "Reference" "Solenoid 5"
+			(at -0.005 2.58 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f2d609f6-131a-4922-9053-51fb4d12c371")
@@ -1980,16 +2002,26 @@
 			(uuid "d230f868-56e8-440a-8744-70ba29a26095")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "UCIRP-KiCAD-Lib:Connector_VGA_Vertical"
 		(layer "F.Cu")
 		(uuid "33fa2ce7-0c9e-465b-83c5-3c6528f13d4e")
 		(at 154.32 30.045)
-		(property "Reference" "J2"
-			(at 0 -0.5 0)
+		(property "Reference" "PT1"
+			(at -0.12 2.615 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "0c4c6d03-ad48-4ef4-a0bb-a370792fc41e")
 			(effects
 				(font
@@ -2599,13 +2631,24 @@
 			(uuid "12e04122-7c47-405b-8cc9-6a14b750ad6d")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "UCIRP-KiCAD-Lib:Connector_VGA_Vertical"
 		(layer "F.Cu")
 		(uuid "35d1e140-8aa0-4660-ba2e-9baf13f0b5a7")
 		(at 154.185 53.665)
 		(property "Reference" "PT 4"
-			(at 0 -0.5 0)
+			(at -0.005 2.525 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f1080777-47d9-48ae-abe6-01310851f5c1")
@@ -3229,6 +3272,17 @@
 			(uuid "d2d4d036-baa5-41a7-b87d-1bf10a64ef32")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
 		(layer "F.Cu")
@@ -3835,7 +3889,7 @@
 		(uuid "549b7911-1406-45ca-9605-ea204bb0a64a")
 		(at 193.145 77.22)
 		(property "Reference" "Solenoid 2"
-			(at 0 -0.5 0)
+			(at 0.075 2.58 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e725141c-348a-4de6-99f5-4d0257042767")
@@ -4459,13 +4513,24 @@
 			(uuid "781503a3-7527-4109-b9d3-9bb7d99576f2")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "UCIRP-KiCAD-Lib:Connector_VGA_Vertical"
 		(layer "F.Cu")
 		(uuid "676c07e6-8e0b-4ac5-af63-6c64318529b4")
 		(at 174.725 101.49)
-		(property "Reference" "J20"
-			(at 0 -0.5 0)
+		(property "Reference" "Solenoid 4"
+			(at 0.035 2.51 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "e8b605f9-7f1b-4689-9189-5a75dd3172a1")
@@ -5089,6 +5154,17 @@
 			(uuid "49b55645-24a4-4912-ac89-9bbc9f67f61b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "PCB_Logo:fish logo"
 		(layer "F.Cu")
@@ -5454,7 +5530,7 @@
 		(uuid "96d3d81d-2bb3-487d-865a-cdc62c81dd6e")
 		(at 154.215 77.25)
 		(property "Reference" "Solenoid 1"
-			(at 0 -0.5 0)
+			(at -0.035 2.52 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f234d367-00cf-4ee9-b144-7708c9cad545")
@@ -6078,6 +6154,17 @@
 			(uuid "0b32ceea-51ed-40f3-81d5-5de80e946bbd")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via"
 		(layer "F.Cu")
@@ -6909,13 +6996,24 @@
 			(uuid "a72cd4b8-de48-497b-bcee-12830f102961")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "UCIRP-KiCAD-Lib:Connector_VGA_Vertical"
 		(layer "F.Cu")
 		(uuid "ee4a4e4b-bb8e-48d3-9d5e-adf4e79433e1")
 		(at 192.9 29.885)
 		(property "Reference" "PT 2"
-			(at 0 0 0)
+			(at 0.06 2.775 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1a6d73a7-1a10-4e0f-b740-c5464a741a74")
@@ -7527,6 +7625,17 @@
 			(uuid "c2e314d4-d943-41bb-b7d6-b936af74f778")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "PCB_Logo:UCIRPL_Logo"
 		(layer "F.Cu")
@@ -7777,7 +7886,7 @@
 		(uuid "fcd63ff3-08d4-4663-8f9d-85e6c1ea3c78")
 		(at 232.125 53.575)
 		(property "Reference" "PT 6"
-			(at 0 -0.5 0)
+			(at -0.075 2.715 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "f31c04d7-2bc9-4bbd-9783-e47c11db11c1")
@@ -8401,6 +8510,17 @@
 			(uuid "cb8853f6-91c1-40d5-8b83-ee7740149bca")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_Dsub.3dshapes/DSUB-15-HD_Socket_Vertical_P2.29x1.98mm_MountingHoles.step"
+			(offset
+				(xyz 4.5 -8.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 		(layer "B.Cu")
@@ -8660,6 +8780,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8929,6 +9050,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9198,6 +9320,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9467,6 +9590,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9736,6 +9860,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10005,6 +10130,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10274,6 +10400,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10543,6 +10670,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10812,6 +10940,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10832,7 +10961,7 @@
 		(property "Reference" "J9"
 			(at 0 2.38 90)
 			(layer "B.SilkS")
-			(uuid "d0649b03-8ac6-411e-a403-10f8a14e2eee")
+			(uuid "5466cfaa-e897-4762-9eb3-71d365bac447")
 			(effects
 				(font
 					(size 1 1)
@@ -10844,7 +10973,7 @@
 		(property "Value" "Conn_01x03_Pin"
 			(at 0 -7.46 90)
 			(layer "B.Fab")
-			(uuid "9c983032-41b1-4124-a9cd-29873f08189f")
+			(uuid "146de1a8-06ce-43c4-a596-94bec7ef3e60")
 			(effects
 				(font
 					(size 1 1)
@@ -10857,7 +10986,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "24fe1468-eaf0-4465-82fc-f0140941e397")
+			(uuid "f2ffeb97-499a-4f9a-9f54-8d28695283ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10870,7 +10999,7 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e4f0c181-2f4f-4255-80e7-4642914db9a5")
+			(uuid "cc3f5057-5586-4d41-8d83-dc7a808b0072")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,6 +11210,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11350,6 +11480,7 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.step"
+			(hide yes)
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11446,7 +11577,7 @@
 		(uuid "caf78538-551d-464e-bca4-8c757ba85f9d")
 	)
 	(gr_text "Solenoid 3"
-		(at 232.43 77.13 0)
+		(at 232.45 79.59 0)
 		(layer "F.SilkS")
 		(uuid "525d65ae-7b8d-474f-b869-5d47441814d9")
 		(effects
